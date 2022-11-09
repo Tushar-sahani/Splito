@@ -1,0 +1,12 @@
+.row{
+    display: block;
+}
+.total{
+    margin-top: 20px;
+    display: flex;
+}
+@media (max-width: 594px){
+    .total{
+        flex-wrap: wrap;
+    }
+}
