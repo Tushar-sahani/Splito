@@ -6,3 +6,4 @@ if (this.name === 'Avinash') {
     let person1 = document.getElementById('person1');
     person1.innerHTML += this.price;
 }
+

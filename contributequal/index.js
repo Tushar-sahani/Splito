@@ -9,9 +9,5 @@ $(window).scroll(function(){
 //   alert(inputValue);
 // });
 
-// random number for key
-const key = document.getElementById('key');
-let a = 6;
-let random = Math.floor(Math.random() * (10**a));
-key.innerHTML = random;
+
 

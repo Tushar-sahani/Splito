@@ -1,0 +1,35 @@
+.graph{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#myChart{
+    width: 500px;
+    margin: 60px auto ;
+    background-color: white;
+    box-shadow: 4px 4px 6px 5px grey;
+}
+#myChart:hover{
+    transform: scale(1.02);
+}
+#myChart2:hover{
+    transform: scale(1.02);
+}
+.graph{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+#myChart2{
+    width: 500px;
+    margin: 60px auto ;
+    background-color: white;
+    box-shadow: 4px 4px 6px 5px grey;
+}

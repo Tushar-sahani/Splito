@@ -25,3 +25,8 @@ links.forEach(link => {
        forms.classList.toggle("show-signup");
     })
 })
+
+let newpage = document.getElementById('newpage');
+newpage.addEventListener('click',()=>{
+    window.open('../Dashboard/dashboard.html','_self');
+})
