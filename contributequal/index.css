@@ -12,13 +12,13 @@ body::before {
 		url(img/bg1.jpg) no-repeat center center/cover;
 	position: absolute;
 	width: 100%;
-	height: 215%;
+	height: 230%;
 	z-index: -1;
 }
 
 .bgcolor.scrolled {
 	/* background-color: rgb(88, 72, 224); */
-	background: linear-gradient(to right, rgb(78, 14, 129), rgb(20, 224, 112));
+	background-image: linear-gradient(to right, #7dd080, #28ae8f, #00888e, #196277, #2c3e50);
 	transition: 2s;
 
 }
@@ -30,7 +30,7 @@ body::before {
 
 .navbar {
 	height: 80px;
-
+	margin: auto;
 }
 
 .navbar-brand {

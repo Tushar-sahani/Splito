@@ -24,10 +24,14 @@ let addItem = document.getElementById('addItem');
 addItem.addEventListener("click", (e) => {
     e.preventDefault();
     let name = document.getElementById('name').value;
+    // localStorage.setItem("name", name);
     let price = document.getElementById('price').value;
+    // localStorage.setItem("price", price);
     let item = document.getElementById('item').value;
+    // localStorage.setItem("item", item);
     let tbodyEle = document.querySelector('tbody');
 
+    let obj
     tbodyEle.innerHTML += `
     <tr>
         <th scope="row">${++i}</th>
@@ -36,6 +40,4 @@ addItem.addEventListener("click", (e) => {
         <td>${price}</td>
         <td>${formattedDate}</td>
     </tr>`;
-
-
 })
