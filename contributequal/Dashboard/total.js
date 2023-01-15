@@ -11,4 +11,7 @@ else if (localStorage.getItem('name') === 'Andril' || localStorage.getItem('name
     let person3 = document.getElementById('person1');
     person3.innerHTML += localStorage.getItem('price');
 }
-
+function removeMember(){
+    const element = document.getElementById('Andril');
+    element.remove();
+}

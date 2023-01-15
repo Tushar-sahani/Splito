@@ -22,8 +22,8 @@ new Chart("myChart", {
 });
 
 
-var xValues2 = ["Avinash", "Abhinav", "Andril"];
-var yValues2 = [51, 39, 44, 24, 15];
+var xValues2 = ["Tushar", "Avinash", "Andril"];
+var yValues2 = [150, 210, 160, 24];
 var barColors = ["red", "green","blue"];
 
 new Chart("myChart2", {

@@ -1,3 +1,14 @@
+function signin(){
+    document.querySelector(".overlay").classList.toggle("showoverlay");
+    document.querySelector(".container1").classList.toggle("showform");
+    document.querySelector("body").classList.toggle("scroll");
+}
+function closeform(){
+    document.querySelector(".container1").classList.remove("showform");
+    document.querySelector(".overlay").classList.remove("showoverlay");
+    document.querySelector("body").classList.remove("scroll");
+}
+
 const forms = document.querySelector(".forms"),
       pwShowHide = document.querySelectorAll(".eye-icon"),
       links = document.querySelectorAll(".link");

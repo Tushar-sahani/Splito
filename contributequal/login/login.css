@@ -8,27 +8,46 @@
     font-family: 'Poppins', sans-serif;
 }
 
-.container {
-    height: 100vh;
+.scroll{
+    overflow: hidden;
+}
+.overlay{
     width: 100%;
+    height: 100vh;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.7);
+    transition: 0.7s;
+    opacity: 0;
+    z-index: -1;
+}
+.showoverlay{
+    opacity: 1;
+    z-index: 2;
+}
+.container1 {
+    width: 430px;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: linear-gradient(to right top, #0022e8, #006cff, #0098ff, #00bcf8, #00dbe5, #00e7d9, #00f1c5, #51f9aa, #4ff496, #51ef7f, #56ea68, #5de44d);
     column-gap: 30px;
     position: absolute;
     left: 50%;
-    top: 50%;
+    top: -50%;
     transform: translate(-50%, -50%);
+    z-index: -1;
+    transition: 1.2s;
 }
-
+.showform{
+    top: 55%;
+    z-index: 3;
+}
 .form {
     position: absolute;
     max-width: 430px;
     width: 100%;
     padding: 30px;
-    border-radius: 6px;
-    background: #FFF;
+    border-radius: 10px;
+    background: #241F1E;
 }
 
 .form.signup {
@@ -49,7 +68,7 @@
 header {
     font-size: 28px;
     font-weight: 600;
-    color: #232836;
+    color: white;
     text-align: center;
 }
 

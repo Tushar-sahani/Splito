@@ -33,6 +33,12 @@
 .text{
     text-align: center;
 }
+.removeElement{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
 @media (max-width: 594px){
     .member{
         flex-wrap: wrap;
