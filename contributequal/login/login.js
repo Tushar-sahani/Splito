@@ -32,12 +32,12 @@ pwShowHide.forEach(eyeIcon => {
 
 links.forEach(link => {
     link.addEventListener("click", e => {
-       e.preventDefault(); //preventing form submit
+       e.preventDefault();
        forms.classList.toggle("show-signup");
     })
 })
 
-let newpage = document.getElementById('newpage');
+let newpage = document.getElementById("newpage");
 newpage.addEventListener('click',()=>{
     window.open('../Dashboard/dashboard.html','_self');
 })

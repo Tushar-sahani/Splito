@@ -38,21 +38,7 @@
   -moz-transition: margin 0.25s ease-out;
   -o-transition: margin 0.25s ease-out;
   transition: margin 0.25s ease-out;
-  background-image: linear-gradient(
-    to bottom,
-    #000000,
-    #111111,
-    #1c1c1c,
-    #262626,
-    #313131,
-    #434343,
-    #575757,
-    #6b6b6b,
-    #8e8e8e,
-    #b2b2b2,
-    #d8d8d8,
-    #ffffff
-  );
+  background: #323232;
 }
 #list-group2 a:hover {
   background-image: linear-gradient(
